@@ -1,0 +1,105 @@
+/* タブレット用CSS */
+@media all and (max-width:1000px) {
+
+  /* ここからheaderのCSS */
+
+  .header-title a {
+    font-size: 15px;
+  }
+
+  .header-list li {
+    padding-right: 10px;
+  }
+
+  /* ここからtop-wrapperのCSS */
+
+  .top-wrapper h1 {
+    padding: 0;
+  }
+  .top-wrapper p {
+    padding: 20px 0;
+    font-size: 13px;
+  }
+
+  /* ここからlanguage-wrapperのCSS */
+
+  .language {
+    margin-bottom: 20px;
+    width: 25%;
+  }
+
+  /* ここからplan-wrapperのCSS */
+
+  .plans {
+    height: auto;
+  }
+
+  .course {
+    margin: 0 16px;
+  }
+
+  .course-detail p {
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .course-detail span {
+    font-size: 24px;
+  }
+
+}
+
+@media all and (max-width: 750px) {
+
+  /* ここからplan-wrapperのCSS */
+
+  .plans {
+    padding-left: 10px;
+  }
+
+  .course {
+    width:90%;
+  }
+
+}
+
+/* スマートフォン用CSS */
+
+@media all and (max-width: 670px) {
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    padding-top: 10px;
+    color: white;
+    display: block;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 26px;
+  }
+
+  .language {
+    width: 40%;
+    font-size:14px;
+  }
+
+  .detail p {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .feature p {
+    text-align: left;
+    font-size: 14px;
+  }
+
+}
