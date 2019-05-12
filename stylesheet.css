@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+html, body,
+ul, ol, li, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+/* ここまでページ全体のCSS */
+
+/* ここからヘッダーCSS */
+
+header {
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-logo {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.header-list {
+  float: right;
+  display: block;
+}
+
+.header-list li {
+  float: left;
+  line-height: 50px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.header-list a {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* ここからtop-wrapperのCSS */
+.top-wrapper {
+  padding: 210px 0 180px 0;
+  color: #fff;
+  background-image: url("img/top-wrapper-coding.jpg");
+  background-size: cover;
+}
+
+.top-wrapper h1 {
+  padding: 10px 0;
+}
+
+.top-wrapper p {
+  padding: 50px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  display: inline-block;
+  font-weight: bold;
+  color: #F3FFD8;
+  background-color: #6699FF;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+/* ここからlanguage-wrapperのCSS */
+
+.language-wrapper {
+  padding: 50px 0 80px 0;
+  color:#5e6f84;
+  background-color: #E6FFE9;
+}
+
+.heading h3 {
+  padding: 20px 0;
+  font-size: 32px;
+}
+
+.language-list {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #7eac59;
+}
+
+.language {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.HTML {
+  background-color: rgba(0,255,255,0.7);
+}
+
+.Java {
+  background-color: rgba(255,255,0,0.7);
+}
+
+.jQuery {
+  background-color: rgba(255,150,0,0.7);
+}
+
+.PHP {
+  background-color: rgba(255,0,255,0.7);
+}
+
+.Ruby {
+  background-color: rgba(255,0,0,0.7);
+}
+
+.Rails {
+   background-color: rgba(255,0,150,0.7);
+}
+
+.language-details {
+  padding: 10px 0;
+}
+
+.detail {
+  padding: 20px 0;
+}
+
+/* ここからfeature-wrapperのCSS */
+
+.feature-wrapper {
+  padding-top: 50px;
+}
+
+.features {
+  padding-bottom: 50px;
+}
+
+.feature {
+  padding-top: 20px;
+}
+
+/* ここからmessage-wrapperのCSS */
+
+.message-wrapper {
+  padding: 80px 0;
+  color: maroon;
+  background-image: url(img/message-wrapper-coding.jpg);
+  background-position: center;
+}
+
+.message-wrapper h4 {
+  font-size: 30px;
+}
+
+.message-wrapper p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ここからplan-wrapperのCSS */
+
+.plan-wrapper {
+  padding-top:10px;
+  padding-bottom: 40px;
+  background-color: #FFC7AF;
+}
+
+.plans {
+  height: 340px;
+  padding: 30px 0;
+  border: 2px solid #7eac59;
+}
+
+.course {
+  width: 45%;
+  margin: 0 20px;
+  float: left;
+}
+
+.free h4 {
+  background-color: #666666;
+}
+
+.paid {
+  background-color: #99FFFF;
+}
+
+.course-title h4 {
+  font-size: 30px;
+}
+
+.course-detail {
+  background-color: #FFFFBB;
+}
+
+.course-detail p {
+  padding: 20px 0;
+  font-size: 18px;
+  border-bottom: 2px solid #7aed69;
+}
+
+.course-detail span {
+  padding: 30px 0;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+}
+
+/* ここからcontact-wrapperのCSS */
+
+.contact-wrapper {
+  height: 800px;
+  padding-top: 80px;
+  color: #FFCCFF;
+  background-image: url(img/contact-wrapper-coding.jpg);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.contact {
+  text-align: left;
+}
+
+.contact p {
+  padding: 15px 0;
+}
+
+.contact input, .contact textarea {
+  width: 90%;
+  padding: 10px 0;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 4px;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+.contact a {
+  margin-top: 20px;
+}
+
+/* ここからfooterのCSS */
+
+footer {
+  height: auto;
+  padding: 30px 0;
+  font-size: 18px;
+  background-color: #888;
+}
+
+footer a {
+  color: white;
+  display: block;
+  cursor: pointer;
+}
